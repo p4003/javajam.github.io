@@ -1,0 +1,149 @@
+* { 
+    box-sizing: border-box; 
+}   /* same size for every box */
+
+body {
+    background-color: #FCEBB6;
+    color: #221811;
+    font-family: Verdana, Arial, sans-serif;
+    /* background-image: url('Images/background.gif'); */
+}
+
+header {
+    background-color: #D2B48C;
+    height: 150px;
+    background-image: url('Images/javajamlogo.jpg');
+    background-repeat: no-repeat;
+}
+
+h1 {
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    float: left;
+    width: 200px;
+}
+
+nav a {
+    text-decoration: none;
+}   /* remove default underline for hyperlink */
+
+nav a:link { color: #FEF6C2; } /* unvisited link */
+nav a:visited { color: #D2B48C }   /* visited link */
+nav a:hover { color: #CC9933 }   /* cursor on top of link */
+
+nav ul {
+    list-style-type: none; /* remove bullet in unordered list */
+    padding-left: 0;
+}   
+
+footer {
+    background-color: #D2B48C;
+    text-align: center;
+    font-size: .60em;
+    font-style: italic;
+    padding-bottom: 10px;
+    border-top: solid 2px #221811;
+}
+
+/* <div id='wrapper'> */
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #231814;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 3px 3px 3px 3px #333333;
+            /* top right bottom left (clockwise) */
+}
+
+h4 {
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    border-bottom: solid 2px #221811;
+    clear: left;
+}
+
+main {
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 2em;
+    padding-right: 0;
+    margin-left: 200px;
+    background-color: #FEF6C2;
+}
+
+/* main {
+    padding: 0em 0em 2em 0em;
+} */
+
+main h2, main h3, main h4, main p, main div, main ul, main dl {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+/* <div class='details'> */
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+
+img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#heroroad {
+    background-image: url('Images/heroroad.jpg');
+    background-size: 100%;
+    height: 250px;
+}
+
+#heromugs {
+    background-image: url('Images/heromugs.jpg');
+    background-size: 100%;
+    height: 250px;
+}
+
+#heroguitar {
+    background-image: url('Images/heroguitar.jpg');
+    background-size: 100%;
+    height: 250px;
+}
+
+.floatleft {
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+header, nav, main, footer { display: block; } 
+
+table {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    border-spacing: 0;
+    background-color: #FFCCCC;
+    /* background-color: #FFFFCC; */
+}
+
+td, th {
+    padding: 10px;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #D2B48E;
+}
